@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0.0",
 	"FriendlyName": "LONET Plugin",
-	"Description": "Real-time networking library that allows LOLED devices to communicate.",
+	"Description": "Real-time networking library to connect to LONET Network.",
 	"Category": "Networking",
 	"CreatedBy": "LOLED",
 	"CreatedByURL": "http://loledvirtual.com",
