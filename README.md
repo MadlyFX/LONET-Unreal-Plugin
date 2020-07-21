@@ -1,8 +1,6 @@
----
-id: unreal
-title: LONET Unreal Plugin
-sidebar_label: Unreal Plugin
----
+
+# LONET Unreal Plugin
+Full Documentation: loledvirtual.com/documentation
 
 In this guide we'll set up the Unreal plugin for LONET.
 
