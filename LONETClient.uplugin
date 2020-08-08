@@ -1,17 +1,19 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.2.0",
 	"FriendlyName": "LONET Plugin",
 	"Description": "Real-time networking library to connect to LONET Network.",
 	"Category": "Networking",
 	"CreatedBy": "LOLED",
 	"CreatedByURL": "http://loledvirtual.com",
-	"DocsURL": "https://github.com/getnamo/socketio-client-ue4",
+	"DocsURL": "https://github.com/MadlyFX/LONET-Unreal-Plugin",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"EngineVersion": "4.25.0",
 	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
 	"Installed": true,
 	"Modules": [
 		{
@@ -57,6 +59,19 @@
 			"Name": "CoreUtility",
 			"Type": "Runtime",
 			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		},
+				{
+			"Name": "LoledLiveLink",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
 				"Win64",
 				"Win32",
