@@ -1,0 +1,12 @@
+{
+	"BuildId": "13144385",
+	"Modules": 
+	{
+		"CoreUtility": "UE4Editor-CoreUtility.dll",
+		"LoledLiveLink": "UE4Editor-LoledLiveLink.dll",
+		"SIOJEditorPlugin": "UE4Editor-SIOJEditorPlugin.dll",
+		"SIOJson": "UE4Editor-SIOJson.dll",
+		"SocketIOClient": "UE4Editor-SocketIOClient.dll",
+		"SocketIOLib": "UE4Editor-SocketIOLib.dll"
+	}
+}

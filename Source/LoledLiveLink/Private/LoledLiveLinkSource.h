@@ -64,6 +64,7 @@ private:
 
 	// Socket to receive data on
 	FSocket* Socket;
+    char userID[1];        // Camera ID
 
 	// Subsystem associated to Socket
 	ISocketSubsystem* SocketSubsystem;

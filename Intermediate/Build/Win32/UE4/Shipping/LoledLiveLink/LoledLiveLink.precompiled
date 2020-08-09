@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"Module.LoledLiveLink.cpp.obj",
+		"Module.LoledLiveLink.gen.cpp.obj",
+		"Loled.c.obj"
+	]
+}

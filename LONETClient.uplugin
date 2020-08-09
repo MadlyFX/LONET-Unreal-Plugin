@@ -12,8 +12,6 @@
 	"SupportURL": "",
 	"EngineVersion": "4.25.0",
 	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
 	"Installed": true,
 	"Modules": [
 		{
@@ -68,7 +66,7 @@
 				"IOS"
 			]
 		},
-				{
+		{
 			"Name": "LoledLiveLink",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
