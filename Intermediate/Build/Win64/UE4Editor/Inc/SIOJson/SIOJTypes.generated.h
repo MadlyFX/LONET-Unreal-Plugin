@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SIOJSON_SIOJTypes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJTypes_h
+#define CURRENT_FILE_ID Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJTypes_h
 
 
 #define FOREACH_ENUM_ESIOREQUESTSTATUS(op) \

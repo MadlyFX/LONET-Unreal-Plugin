@@ -17,7 +17,7 @@ class USIOJsonObject;
 #endif
 #define SOCKETIOCLIENT_SocketIOClientComponent_generated_h
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_16_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_16_DELEGATE \
 struct _Script_SocketIOClient_eventSIOConnectionProblemSignature_Parms \
 { \
 	int32 Attempts; \
@@ -34,7 +34,7 @@ static inline void FSIOConnectionProblemSignature_DelegateWrapper(const FMultica
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_15_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_15_DELEGATE \
 struct _Script_SocketIOClient_eventSIOCEventJsonSignature_Parms \
 { \
 	FString EventName; \
@@ -49,7 +49,7 @@ static inline void FSIOCEventJsonSignature_DelegateWrapper(const FMulticastScrip
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_14_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_14_DELEGATE \
 struct _Script_SocketIOClient_eventSIOCCloseEventSignature_Parms \
 { \
 	TEnumAsByte<ESIOConnectionCloseReason> Reason; \
@@ -62,7 +62,7 @@ static inline void FSIOCCloseEventSignature_DelegateWrapper(const FMulticastScri
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_13_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_13_DELEGATE \
 struct _Script_SocketIOClient_eventSIOCOpenEventSignature_Parms \
 { \
 	FString SessionId; \
@@ -77,7 +77,7 @@ static inline void FSIOCOpenEventSignature_DelegateWrapper(const FMulticastScrip
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_12_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_12_DELEGATE \
 struct _Script_SocketIOClient_eventSIOCSocketEventSignature_Parms \
 { \
 	FString Namespace; \
@@ -90,15 +90,15 @@ static inline void FSIOCSocketEventSignature_DelegateWrapper(const FMulticastScr
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_11_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_11_DELEGATE \
 static inline void FSIOCEventSignature_DelegateWrapper(const FMulticastScriptDelegate& SIOCEventSignature) \
 { \
 	SIOCEventSignature.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execBindEventToFunction); \
 	DECLARE_FUNCTION(execUnbindEvent); \
@@ -112,7 +112,7 @@ static inline void FSIOCEventSignature_DelegateWrapper(const FMulticastScriptDel
 	DECLARE_FUNCTION(execConnect);
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execBindEventToFunction); \
 	DECLARE_FUNCTION(execUnbindEvent); \
@@ -126,7 +126,7 @@ static inline void FSIOCEventSignature_DelegateWrapper(const FMulticastScriptDel
 	DECLARE_FUNCTION(execConnect);
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSocketIOClientComponent(); \
 	friend struct Z_Construct_UClass_USocketIOClientComponent_Statics; \
@@ -135,7 +135,7 @@ public: \
 	DECLARE_SERIALIZER(USocketIOClientComponent)
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS \
 private: \
 	static void StaticRegisterNativesUSocketIOClientComponent(); \
 	friend struct Z_Construct_UClass_USocketIOClientComponent_Statics; \
@@ -144,7 +144,7 @@ public: \
 	DECLARE_SERIALIZER(USocketIOClientComponent)
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_STANDARD_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USocketIOClientComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USocketIOClientComponent) \
@@ -157,7 +157,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_ENHANCED_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USocketIOClientComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -170,28 +170,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USocketIOClientComponent); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USocketIOClientComponent)
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_18_PROLOG
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_GENERATED_BODY_LEGACY \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_18_PROLOG
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_STANDARD_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_GENERATED_BODY \
+#define Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_ENHANCED_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_INCLASS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h_21_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SocketIOClientComponent."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -199,7 +199,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SOCKETIOCLIENT_API UClass* StaticClass<class USocketIOClientComponent>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h
+#define CURRENT_FILE_ID Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIOClientComponent_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

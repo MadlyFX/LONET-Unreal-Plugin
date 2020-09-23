@@ -16,8 +16,8 @@ class UObject;
 #endif
 #define SIOJSON_SIOJsonObject_generated_h
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetObjectArrayField); \
 	DECLARE_FUNCTION(execGetObjectArrayField); \
@@ -52,7 +52,7 @@ class UObject;
 	DECLARE_FUNCTION(execConstructJsonObject);
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetObjectArrayField); \
 	DECLARE_FUNCTION(execGetObjectArrayField); \
@@ -87,7 +87,7 @@ class UObject;
 	DECLARE_FUNCTION(execConstructJsonObject);
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSIOJsonObject(); \
 	friend struct Z_Construct_UClass_USIOJsonObject_Statics; \
@@ -96,7 +96,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJsonObject)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesUSIOJsonObject(); \
 	friend struct Z_Construct_UClass_USIOJsonObject_Statics; \
@@ -105,7 +105,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJsonObject)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJsonObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USIOJsonObject) \
@@ -118,7 +118,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_ENHANCED_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJsonObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -131,28 +131,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USIOJsonObject); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USIOJsonObject)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_17_PROLOG
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY_LEGACY \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_17_PROLOG
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_ENHANCED_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_INCLASS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h_20_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class SIOJsonObject."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -160,7 +160,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SIOJSON_API UClass* StaticClass<class USIOJsonObject>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h
+#define CURRENT_FILE_ID Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJsonObject_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

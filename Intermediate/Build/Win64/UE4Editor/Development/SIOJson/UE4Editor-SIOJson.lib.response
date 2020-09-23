@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SIOJson.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"R:\Users\Andy\Documents\Demo\Intermediate\Build\Win64\DemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SIOJson\Module.SIOJson.cpp.obj"
+"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SIOJson\Module.SIOJson.gen.cpp.obj"
+"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SIOJson\Default.rc2.res"
+/OUT:"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SIOJson\UE4Editor-SIOJson.lib"
+/INCLUDE:IMPLEMENT_MODULE_SIOJson

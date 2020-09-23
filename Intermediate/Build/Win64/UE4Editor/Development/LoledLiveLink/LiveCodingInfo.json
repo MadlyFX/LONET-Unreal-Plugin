@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LoledLiveLink.cpp.obj": [
+			"LoledLiveLink.cpp.obj",
+			"LoledLiveLinkSource.cpp.obj",
+			"LoledLiveLinkSourceEditor.cpp.obj",
+			"LoledLiveLinkSourceFactory.cpp.obj"
+		],
+		"Module.LoledLiveLink.gen.cpp.obj": [
+			"LoledLiveLink.init.gen.cpp.obj",
+			"LoledLiveLinkSourceFactory.gen.cpp.obj"
+		]
+	}
+}

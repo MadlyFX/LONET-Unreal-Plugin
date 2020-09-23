@@ -1,0 +1,42 @@
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOClient\Definitions.SocketIOClient.h
+R:/Users/Andy/Documents/Demo/Plugins/LONETClient/Source/SocketIOClient/Private/SIOMessageConvert.cpp
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOClient\Public\SIOMessageConvert.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOLib\Public\sio_client.h
+R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\string
+R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cctype
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOLib\Public\sio_message.h
+R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\map
+R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xtree
+R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOLib\Public\sio_socket.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SocketIOClient\SIOMessageConvert.generated.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SIOJson\Public\SIOJsonValue.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SIOJson\SIOJsonValue.generated.h
+R:/Users/Andy/Documents/Demo/Plugins/LONETClient/Source/SocketIOClient/Private/SocketIOClient.cpp
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOClient\Public\SocketIOClient.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOClient\Public\SocketIONative.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SIOJson\Public\SIOJsonObject.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SIOJson\SIOJsonObject.generated.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SIOJson\Public\SIOJConvert.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SIOJson\SIOJConvert.generated.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\CoreUtility\Public\CULambdaRunnable.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\LatentActions.h
+R:/Users/Andy/Documents/Demo/Plugins/LONETClient/Source/SocketIOClient/Private/SocketIOClientComponent.cpp
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOClient\Public\SocketIOClientComponent.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SocketIOClient\SocketIOClientComponent.generated.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SIOJson\Public\SIOJRequestJSON.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\Http.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\HttpModule.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpRequest.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpBase.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\Interfaces/IHttpResponse.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\PlatformHttp.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\Windows/WindowsPlatformHttp.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform/GenericPlatformHttp.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SIOJson\Public\SIOJTypes.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SIOJson\SIOJRequestJSON.generated.h
+R:/Users/Andy/Documents/Demo/Plugins/LONETClient/Source/SocketIOClient/Private/SocketIOFunctionLibrary.cpp
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\SocketIOClient\Public\SocketIOFunctionLibrary.h
+R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SocketIOClient\SocketIOFunctionLibrary.generated.h
+R:/Users/Andy/Documents/Demo/Plugins/LONETClient/Source/SocketIOClient/Private/SocketIONative.cpp

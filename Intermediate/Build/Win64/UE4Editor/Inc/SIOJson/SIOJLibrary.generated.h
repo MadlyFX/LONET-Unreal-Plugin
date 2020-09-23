@@ -21,14 +21,14 @@ class FProperty;
 #endif
 #define SIOJSON_SIOJLibrary_generated_h
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_21_GENERATED_BODY \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_21_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSIOJCallResponse_Statics; \
 	SIOJSON_API static class UScriptStruct* StaticStruct();
 
 
 template<> SIOJSON_API UScriptStruct* StaticStruct<struct FSIOJCallResponse>();
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_16_DELEGATE \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_16_DELEGATE \
 struct _Script_SIOJson_eventSIOJCallDelegate_Parms \
 { \
 	USIOJRequestJSON* Request; \
@@ -41,8 +41,8 @@ static inline void FSIOJCallDelegate_DelegateWrapper(const FScriptDelegate& SIOJ
 }
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetURLBinary); \
 	DECLARE_FUNCTION(execCallURL); \
@@ -67,7 +67,7 @@ static inline void FSIOJCallDelegate_DelegateWrapper(const FScriptDelegate& SIOJ
 	DECLARE_FUNCTION(execPercentEncode);
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetURLBinary); \
 	DECLARE_FUNCTION(execCallURL); \
@@ -92,7 +92,7 @@ static inline void FSIOJCallDelegate_DelegateWrapper(const FScriptDelegate& SIOJ
 	DECLARE_FUNCTION(execPercentEncode);
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS_NO_PURE_DECLS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSIOJLibrary(); \
 	friend struct Z_Construct_UClass_USIOJLibrary_Statics; \
@@ -101,7 +101,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJLibrary)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS \
 private: \
 	static void StaticRegisterNativesUSIOJLibrary(); \
 	friend struct Z_Construct_UClass_USIOJLibrary_Statics; \
@@ -110,7 +110,7 @@ public: \
 	DECLARE_SERIALIZER(USIOJLibrary)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_STANDARD_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USIOJLibrary) \
@@ -123,7 +123,7 @@ private: \
 public:
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_ENHANCED_CONSTRUCTORS \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USIOJLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -136,28 +136,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USIOJLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USIOJLibrary)
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_46_PROLOG
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_GENERATED_BODY_LEGACY \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_46_PROLOG
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_STANDARD_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_GENERATED_BODY \
+#define Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS_NO_PURE_DECLS \
-	HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_ENHANCED_CONSTRUCTORS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_PRIVATE_PROPERTY_OFFSET \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_SPARSE_DATA \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_RPC_WRAPPERS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_INCLASS_NO_PURE_DECLS \
+	Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h_49_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -165,7 +165,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SIOJSON_API UClass* StaticClass<class USIOJLibrary>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID HostProject_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h
+#define CURRENT_FILE_ID Demo_Plugins_LONETClient_Source_SIOJson_Public_SIOJLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
