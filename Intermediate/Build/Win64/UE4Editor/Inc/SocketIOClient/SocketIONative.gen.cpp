@@ -31,7 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIONative() {}
 		return ESIOThreadOverrideOption_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIOThreadOverrideOption(ESIOThreadOverrideOption_StaticEnum, TEXT("/Script/SocketIOClient"), TEXT("ESIOThreadOverrideOption"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SocketIOClient_ESIOThreadOverrideOption_Hash() { return 4100523460U; }
+	uint32 Get_Z_Construct_UEnum_SocketIOClient_ESIOThreadOverrideOption_Hash() { return 2796065303U; }
 	UEnum* Z_Construct_UEnum_SocketIOClient_ESIOThreadOverrideOption()
 	{
 #if WITH_HOT_RELOAD
@@ -64,6 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIONative() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::Regular,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -86,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIONative() {}
 		return ESIOConnectionCloseReason_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIOConnectionCloseReason(ESIOConnectionCloseReason_StaticEnum, TEXT("/Script/SocketIOClient"), TEXT("ESIOConnectionCloseReason"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SocketIOClient_ESIOConnectionCloseReason_Hash() { return 1492352295U; }
+	uint32 Get_Z_Construct_UEnum_SocketIOClient_ESIOConnectionCloseReason_Hash() { return 3190136421U; }
 	UEnum* Z_Construct_UEnum_SocketIOClient_ESIOConnectionCloseReason()
 	{
 #if WITH_HOT_RELOAD
@@ -117,6 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIONative() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::Regular,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))

@@ -6,10 +6,10 @@
 /NAME:"UE4Editor-LoledLiveLink.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"R:\Users\Andy\Documents\Demo\Intermediate\Build\Win64\DemoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Module.LoledLiveLink.cpp.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Module.LoledLiveLink.gen.cpp.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Loled.c.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Default.rc2.res"
-/OUT:"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\UE4Editor-LoledLiveLink.lib"
+"D:\Unreal Projects\LONETConversion\Intermediate\Build\Win64\LONETConversionEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Module.LoledLiveLink.cpp.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Module.LoledLiveLink.gen.cpp.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Loled.c.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Default.rc2.res"
+/OUT:"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\UE4Editor-LoledLiveLink.lib"
 /INCLUDE:IMPLEMENT_MODULE_LoledLiveLink

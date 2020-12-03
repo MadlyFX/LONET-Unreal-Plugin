@@ -12,10 +12,10 @@
 /D_DISABLE_EXTENDED_ALIGNED_STORAGE
 /source-charset:utf-8
 /execution-charset:utf-8
+/Ob2
 /Ox
 /Ot
 /GF
-/Ob2
 /errorReport:prompt
 /EHsc
 /Z7
@@ -28,11 +28,10 @@
 /we4458
 /we4459
 /wd4463
-/we4668
 /wd4244
 /wd4838
 /I .
-/I R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\LoledLiveLink\Private
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -64,6 +63,7 @@
 /I Runtime\Analytics\AnalyticsET\Public
 /I Runtime\Analytics\Analytics\Public
 /I Runtime\Sockets\Public
+/I Runtime\Net\Common\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry
 /I Runtime\AssetRegistry\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages
@@ -94,18 +94,21 @@
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore
 /I Runtime\PhysicsCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings
+/I Runtime\DeveloperSettings\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Chaos
 /I Runtime\Experimental
 /I Runtime\Experimental\Chaos\Public
 /I Runtime\Experimental\ChaosCore\Public
-/I ThirdParty
+/I ThirdParty\Intel
 /I Runtime\Experimental\Voronoi\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemCore
-/I Runtime\Experimental\FieldSystem\Source
-/I Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public
+/I ThirdParty
 /I Runtime\SignalProcessing\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions
 /I Runtime\AudioExtensions\Public
 /I Runtime\AudioMixerCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyAccess
+/I Runtime\PropertyAccess\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
 /I Editor
 /I Programs\UnrealLightmass\Public
@@ -176,6 +179,9 @@
 /I Editor\StructViewer\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser
 /I Editor\ContentBrowser\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowserData
+/I Editor\ContentBrowserData\Public
+/I Developer\CollectionManager\Public
 /I ThirdParty\libSampleRate\Public
 /I Runtime\NetworkFileSystem\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMG
@@ -199,13 +205,14 @@
 /I Runtime\Experimental\InteractiveToolsFramework\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenusEditor
 /I Editor\ToolMenusEditor\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenus
+/I Developer\ToolMenus\Public
 /I Runtime\Windows
 /I Runtime\Windows\XAudio2\Public
 /I Editor\AssetTagsEditor\Public
-/I Developer\CollectionManager\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog
 /I Editor\AddContentDialog\Public
-/I ThirdParty\IntelEmbree\Embree2140\Win64\include
+/I ThirdParty\Intel\Embree\Embree2140\Win64\include
 /I Developer\MeshUtilities\Public
 /I Developer\MeshMergeUtilities\Public
 /I Developer\HierarchicalLODUtilities\Public
@@ -222,21 +229,14 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Kismet
 /I Editor\Kismet\Classes
 /I Editor\Kismet\Public
-/I Runtime\PhysicsSQ\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers
-/I Runtime\Experimental\ChaosSolvers\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore
-/I Runtime\Experimental\GeometryCollectionCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore
-/I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
 /I Runtime\Networking\Public
-/I R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\LoledLiveLink
-/I R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source
-/I R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\LoledLiveLink\Public
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\LoledLiveLink"
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source"
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Public"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkInterface
 /I Runtime\LiveLinkInterface\Public
 /I ThirdParty\PhysX3\PxShared\include
@@ -262,8 +262,8 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "R:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
@@ -291,12 +291,12 @@
 /DWITH_LOGGING_TO_MEMORY=0
 /DUSE_CACHE_FREED_OS_ALLOCS=1
 /DUSE_CHECKS_IN_SHIPPING=0
+/DUSE_ESTIMATED_UTCNOW=0
 /DWITH_EDITOR=1
 /DWITH_SERVER_CODE=1
-/DWITH_PUSH_MODEL=0
+/DWITH_PUSH_MODEL=1
 /DWITH_CEF3=1
 /DWITH_LIVE_CODING=1
-/DWITH_XGE_CONTROLLER=1
 /DUBT_MODULE_MANIFEST=\"UE4Editor.modules\"
 /DUBT_MODULE_MANIFEST_DEBUGGAME=\"UE4Editor-Win64-DebugGame.modules\"
 /DUBT_COMPILED_PLATFORM=Win64
@@ -313,8 +313,8 @@
 /DNDEBUG=1
 /DUE_BUILD_DEVELOPMENT=1
 /DUE_IS_ENGINE_MODULE=0
-/DUE_PROJECT_NAME=Demo
-/DUE_TARGET_NAME=DemoEditor
+/DUE_PROJECT_NAME=LONETConversion
+/DUE_TARGET_NAME=LONETConversionEditor
 /DIMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=
 /DIMPLEMENT_SIGNING_KEY_REGISTRATION()=
 /DDEPRECATED_FORGAME=DEPRECATED
@@ -360,6 +360,7 @@
 /DANALYTICS_API=DLLIMPORT
 /DSOCKETS_PACKAGE=1
 /DSOCKETS_API=DLLIMPORT
+/DNETCOMMON_API=DLLIMPORT
 /DASSETREGISTRY_API=DLLIMPORT
 /DENGINEMESSAGES_API=DLLIMPORT
 /DENGINESETTINGS_API=DLLIMPORT
@@ -388,6 +389,7 @@
 /DWITH_CUSTOM_SQ_STRUCTURE=0
 /DWITH_IMMEDIATE_PHYSX=0
 /DPHYSICSCORE_API=DLLIMPORT
+/DDEVELOPERSETTINGS_API=DLLIMPORT
 /DCOMPILE_WITHOUT_UNREAL_SUPPORT=0
 /DINCLUDE_CHAOS=0
 /DCHAOS_MEMORY_TRACKING=0
@@ -398,7 +400,6 @@
 /DCHAOSCORE_API=DLLIMPORT
 /DINTEL_ISPC=1
 /DVORONOI_API=DLLIMPORT
-/DFIELDSYSTEMCORE_API=DLLIMPORT
 /DWITH_PHYSX_RELEASE=0
 /DUE_PHYSX_SUFFIX=PROFILE
 /DUE_APEX_SUFFIX=PROFILE
@@ -408,6 +409,7 @@
 /DSIGNALPROCESSING_API=DLLIMPORT
 /DAUDIOEXTENSIONS_API=DLLIMPORT
 /DAUDIOMIXERCORE_API=DLLIMPORT
+/DPROPERTYACCESS_API=DLLIMPORT
 /DINCLUDE_CHAOS=0
 /DWITH_PHYSX=1
 /DWITH_CHAOS=0
@@ -422,9 +424,12 @@
 /DWITH_CUSTOM_SQ_STRUCTURE=0
 /DWITH_IMMEDIATE_PHYSX=0
 /DWITH_RECAST=1
+/DWITH_NAVMESH_SEGMENT_LINKS=1
+/DWITH_NAVMESH_CLUSTER_LINKS=1
 /DUNREALED_API=DLLIMPORT
 /DDIRECTORYWATCHER_API=DLLIMPORT
 /DDOCUMENTATION_API=DLLIMPORT
+/DREAD_TARGET_ENABLED_PLUGINS_FROM_RECEIPT=1
 /DLOAD_PLUGINS_FOR_TARGET_PLATFORMS=1
 /DPROJECTS_API=DLLIMPORT
 /DSANDBOXFILE_API=DLLIMPORT
@@ -438,6 +443,7 @@
 /DHTTP_PACKAGE=1
 /DCURL_ENABLE_DEBUG_CALLBACK=1
 /DCURL_ENABLE_NO_TIMEOUTS_OPTION=1
+/DWITH_WINHTTP=1
 /DHTTP_API=DLLIMPORT
 /DUNREALAUDIO_API=DLLIMPORT
 /DFUNCTIONALTESTING_API=DLLIMPORT
@@ -475,6 +481,8 @@
 /DGRAPHEDITOR_API=DLLIMPORT
 /DSTRUCTVIEWER_API=DLLIMPORT
 /DCONTENTBROWSER_API=DLLIMPORT
+/DCONTENTBROWSERDATA_API=DLLIMPORT
+/DCOLLECTIONMANAGER_API=DLLIMPORT
 /DUELIBSAMPLERATE_API=DLLIMPORT
 /DENABLE_HTTP_FOR_NFS=1
 /DNETWORKFILESYSTEM_API=DLLIMPORT
@@ -498,16 +506,18 @@
 /DWITH_CUSTOM_SQ_STRUCTURE=0
 /DWITH_IMMEDIATE_PHYSX=0
 /DWITH_RECAST=1
+/DWITH_NAVMESH_SEGMENT_LINKS=1
+/DWITH_NAVMESH_CLUSTER_LINKS=1
 /DNAVIGATIONSYSTEM_API=DLLIMPORT
 /DMESHBUILDER_API=DLLIMPORT
 /DMATERIALSHADERQUALITYSETTINGS_API=DLLIMPORT
 /DINTERACTIVETOOLSFRAMEWORK_API=DLLIMPORT
 /DTOOLMENUSEDITOR_API=DLLIMPORT
+/DTOOLMENUS_API=DLLIMPORT
 /DWITH_OGGVORBIS=1
 /DXAUDIO2_API=DLLIMPORT
 /DAUDIOMIXERXAUDIO2_API=DLLIMPORT
 /DASSETTAGSEDITOR_API=DLLIMPORT
-/DCOLLECTIONMANAGER_API=DLLIMPORT
 /DADDCONTENTDIALOG_API=DLLIMPORT
 /DUSE_EMBREE=1
 /DMESHUTILITIES_API=DLLIMPORT
@@ -534,30 +544,12 @@
 /DWITH_NVCLOTH=1
 /DWITH_CUSTOM_SQ_STRUCTURE=0
 /DWITH_IMMEDIATE_PHYSX=0
-/DPHYSICSSQ_API=DLLIMPORT
-/DCOMPILE_WITHOUT_UNREAL_SUPPORT=0
-/DCHAOSSOLVERS_API=DLLIMPORT
-/DGEOMETRYCOLLECTIONCORE_API=DLLIMPORT
-/DGEOMETRYCOLLECTIONSIMULATIONCORE_API=DLLIMPORT
-/DINCLUDE_CHAOS=0
-/DWITH_PHYSX=1
-/DWITH_CHAOS=0
-/DWITH_CHAOS_CLOTHING=0
-/DWITH_CHAOS_NEEDS_TO_BE_FIXED=0
-/DPHYSICS_INTERFACE_PHYSX=1
-/DWITH_APEX=1
-/DWITH_APEX_CLOTHING=1
-/DWITH_CLOTH_COLLISION_DETECTION=1
-/DWITH_PHYSX_COOKING=1
-/DWITH_NVCLOTH=1
-/DWITH_CUSTOM_SQ_STRUCTURE=0
-/DWITH_IMMEDIATE_PHYSX=0
 /DCLOTHINGSYSTEMRUNTIMEINTERFACE_API=DLLIMPORT
 /DJSONUTILITIES_API=DLLIMPORT
 /DNETWORKING_API=DLLIMPORT
 /DLOLEDLIVELINK_API=DLLEXPORT
 /DLIVELINKINTERFACE_API=DLLIMPORT
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Source\LoledLiveLink\Private\Loled.c"
-/Fo"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Loled.c.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Private\Loled.c"
+/Fo"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\LoledLiveLink\Loled.c.obj"
 /TC
 /W0

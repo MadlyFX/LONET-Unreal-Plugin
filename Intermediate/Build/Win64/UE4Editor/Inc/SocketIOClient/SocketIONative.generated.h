@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SOCKETIOCLIENT_SocketIONative_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID Demo_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIONative_h
+#define CURRENT_FILE_ID LONETConversion_Plugins_LONETClient_Source_SocketIOClient_Public_SocketIONative_h
 
 
 #define FOREACH_ENUM_ESIOTHREADOVERRIDEOPTION(op) \

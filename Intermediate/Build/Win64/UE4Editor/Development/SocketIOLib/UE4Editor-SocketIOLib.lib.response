@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-SocketIOLib.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"R:\Users\Andy\Documents\Demo\Intermediate\Build\Win64\DemoEditor\Development\Engine\SharedPCH.Engine.RTTI.ShadowErrors.h.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\Module.SocketIOLib.cpp.obj"
-"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\Default.rc2.res"
-/OUT:"R:\Users\Andy\Documents\Demo\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\UE4Editor-SocketIOLib.lib"
+"D:\Unreal Projects\LONETConversion\Intermediate\Build\Win64\LONETConversionEditor\Development\Engine\SharedPCH.Engine.RTTI.ShadowErrors.h.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\Module.SocketIOLib.cpp.obj"
+"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\Default.rc2.res"
+/OUT:"D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\UE4Editor-SocketIOLib.lib"
 /INCLUDE:IMPLEMENT_MODULE_SocketIOLib

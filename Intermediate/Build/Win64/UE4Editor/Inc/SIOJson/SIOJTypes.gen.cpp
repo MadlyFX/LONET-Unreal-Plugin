@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 		return ESIORequestStatus_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIORequestStatus(ESIORequestStatus_StaticEnum, TEXT("/Script/SIOJson"), TEXT("ESIORequestStatus"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestStatus_Hash() { return 2068638966U; }
+	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestStatus_Hash() { return 4271307581U; }
 	UEnum* Z_Construct_UEnum_SIOJson_ESIORequestStatus()
 	{
 #if WITH_HOT_RELOAD
@@ -81,6 +81,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -103,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 		return ESIORequestContentType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIORequestContentType(ESIORequestContentType_StaticEnum, TEXT("/Script/SIOJson"), TEXT("ESIORequestContentType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestContentType_Hash() { return 1583451654U; }
+	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestContentType_Hash() { return 3988117796U; }
 	UEnum* Z_Construct_UEnum_SIOJson_ESIORequestContentType()
 	{
 #if WITH_HOT_RELOAD
@@ -142,6 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -164,7 +166,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 		return ESIORequestVerb_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIORequestVerb(ESIORequestVerb_StaticEnum, TEXT("/Script/SIOJson"), TEXT("ESIORequestVerb"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestVerb_Hash() { return 1787532277U; }
+	uint32 Get_Z_Construct_UEnum_SIOJson_ESIORequestVerb_Hash() { return 3611405538U; }
 	UEnum* Z_Construct_UEnum_SIOJson_ESIORequestVerb()
 	{
 #if WITH_HOT_RELOAD
@@ -206,6 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJTypes() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))

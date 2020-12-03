@@ -3,6 +3,7 @@
 
 #include "SocketIOClientComponent.h"
 #include "SIOJConvert.h"
+#include "SIOMessageConvert.h"
 #include "SIOJRequestJSON.h"
 #include "SocketIOClient.h"
 #include "Engine/Engine.h"
@@ -113,7 +114,6 @@ void USocketIOClientComponent::UninitializeComponent()
 		NativeClient = nullptr;
 	}
 
-	//UE_LOG(SocketIOLog, Log, TEXT("UninitializeComponent() call"));
 	Super::UninitializeComponent();
 }
 
@@ -216,20 +216,20 @@ bool USocketIOClientComponent::CallBPFunctionWithResponse(UObject* Target, const
 {
 	if (!Target->IsValidLowLevel())
 	{
-		UE_LOG(SocketIOLog, Warning, TEXT("CallFunctionByNameWithArguments: Target not found for '%s'"), *FunctionName);
+		UE_LOG(SocketIO, Warning, TEXT("CallFunctionByNameWithArguments: Target not found for '%s'"), *FunctionName);
 		return false;
 	}
 	UWorld* World = GEngine->GetWorldFromContextObject(Target, EGetWorldErrorMode::LogAndReturnNull);
 	if (World && World->bIsTearingDown)
 	{
-		UE_LOG(SocketIOLog, Log, TEXT("World tearing down, %s BP function call ignored."), *FunctionName);
+		UE_LOG(SocketIO, Log, TEXT("World tearing down, %s BP function call ignored."), *FunctionName);
 		return false;
 	}
 
 	UFunction* Function = Target->FindFunction(FName(*FunctionName));
 	if (nullptr == Function)
 	{
-		UE_LOG(SocketIOLog, Warning, TEXT("CallFunctionByNameWithArguments: Function not found '%s'"), *FunctionName);
+		UE_LOG(SocketIO, Warning, TEXT("CallFunctionByNameWithArguments: Function not found '%s'"), *FunctionName);
 		return false;
 	}
 
@@ -260,7 +260,7 @@ bool USocketIOClientComponent::CallBPFunctionWithResponse(UObject* Target, const
 		//function has too few params
 		if (bNoFunctionParams)
 		{
-			UE_LOG(SocketIOLog, Warning, TEXT("CallFunctionByNameWithArguments: Function '%s' has too few parameters, callback parameters ignored : <%s>"), *FunctionName, *ResponseJsonValue->EncodeJson());
+			UE_LOG(SocketIO, Warning, TEXT("CallFunctionByNameWithArguments: Function '%s' has too few parameters, callback parameters ignored : <%s>"), *FunctionName, *ResponseJsonValue->EncodeJson());
 			Target->ProcessEvent(Function, nullptr);
 			return true;
 		}
@@ -345,7 +345,7 @@ bool USocketIOClientComponent::CallBPFunctionWithResponse(UObject* Target, const
 		}
 	}
 
-	UE_LOG(SocketIOLog, Warning, TEXT("CallFunctionByNameWithArguments: Function '%s' signature not supported expected <%s>"), *FunctionName, *ResponseJsonValue->EncodeJson());
+	UE_LOG(SocketIO, Warning, TEXT("CallFunctionByNameWithArguments: Function '%s' signature not supported expected <%s>"), *FunctionName, *ResponseJsonValue->EncodeJson());
 	return false;
 }
 
@@ -361,24 +361,24 @@ bool USocketIOClientComponent::CallBPFunctionWithMessage(UObject* Target, const 
 #pragma region Connect
 #endif
 
-void USocketIOClientComponent::Connect(const FString& InAddressAndPort, USIOJsonObject* Query /*= nullptr*/, USIOJsonObject* Headers /*= nullptr*/)
+void USocketIOClientComponent::Connect(const FString& InAddressAndPort, const FString& Path, USIOJsonObject* Query /*= nullptr*/, USIOJsonObject* Headers /*= nullptr*/)
 {
 	//Check if we're limiting this component
-	if(bLimitConnectionToGameWorld)
-	{ 
+	if (bLimitConnectionToGameWorld)
+	{
 		UWorld* World = GEngine->GetWorldFromContextObject(this, EGetWorldErrorMode::LogAndReturnNull);
 		if (World)
 		{
 			bool bIsGameWorld = (World->IsGameWorld() || World->IsPreviewWorld());
-			if(!bIsGameWorld)
+			if (!bIsGameWorld)
 			{
-				UE_LOG(SocketIOLog, Log, TEXT("USocketIOClientComponent::Connect attempt in non-game world blocked by bLimitConnectionToGameWorld."));
+				UE_LOG(SocketIO, Log, TEXT("USocketIOClientComponent::Connect attempt in non-game world blocked by bLimitConnectionToGameWorld."));
 				return;
 			}
 		}
 		else
 		{
-			UE_LOG(SocketIOLog, Warning, TEXT("USocketIOClientComponent::Connect attempt while in invalid world."));
+			UE_LOG(SocketIO, Warning, TEXT("USocketIOClientComponent::Connect attempt while in invalid world."));
 			return;
 		}
 	}
@@ -399,13 +399,13 @@ void USocketIOClientComponent::Connect(const FString& InAddressAndPort, USIOJson
 	NativeClient->MaxReconnectionAttempts = MaxReconnectionAttempts;
 	NativeClient->ReconnectionDelay = ReconnectionDelayInMs;
 	NativeClient->VerboseLog = bVerboseConnectionLog;
-	
-	ConnectNative(InAddressAndPort, QueryFJson, HeadersFJson);
+
+	ConnectNative(InAddressAndPort, Path, QueryFJson, HeadersFJson);
 }
 
-void USocketIOClientComponent::ConnectNative(const FString& InAddressAndPort, const TSharedPtr<FJsonObject>& Query /*= nullptr*/, const TSharedPtr<FJsonObject>& Headers /*= nullptr*/)
+void USocketIOClientComponent::ConnectNative(const FString& InAddressAndPort, const FString& Path, const TSharedPtr<FJsonObject>& Query /*= nullptr*/, const TSharedPtr<FJsonObject>& Headers /*= nullptr*/)
 {
-	NativeClient->Connect(InAddressAndPort, Query, Headers);
+	NativeClient->Connect(InAddressAndPort, Query, Headers, Path);
 }
 
 void USocketIOClientComponent::Disconnect()

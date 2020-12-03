@@ -218,9 +218,9 @@ void FLoledLiveLinkSource::HandleReceivedData(TSharedPtr<TArray<uint8>, ESPMode:
 		FLiveLinkFrameDataStruct TransformFrameDataStruct = FLiveLinkFrameDataStruct(FLiveLinkBaseFrameData::StaticStruct());
 		FLiveLinkBaseFrameData& TransformFrameData = *TransformFrameDataStruct.Cast<FLiveLinkBaseFrameData>();
 		TransformFrameData.PropertyValues.SetNumUninitialized(6);
-		TransformFrameData.PropertyValues[0] = focus / 10;
-		TransformFrameData.PropertyValues[1] = iris / 10;
-		TransformFrameData.PropertyValues[2] = zoom / 10;
+		TransformFrameData.PropertyValues[0] = focus / 100;
+		TransformFrameData.PropertyValues[1] = iris / 100;
+		TransformFrameData.PropertyValues[2] = zoom / 100;
 		TransformFrameData.PropertyValues[3] = focusRaw;
 		TransformFrameData.PropertyValues[4] = irisRaw;
 		TransformFrameData.PropertyValues[5] = zoomRaw;
@@ -240,9 +240,9 @@ void FLoledLiveLinkSource::HandleReceivedData(TSharedPtr<TArray<uint8>, ESPMode:
 
 		FLiveLinkFrameDataStruct CameraFrameDataStruct = FLiveLinkFrameDataStruct(FLiveLinkCameraFrameData::StaticStruct());
 		FLiveLinkCameraFrameData& CameraFrameData = *CameraFrameDataStruct.Cast<FLiveLinkCameraFrameData>();
-		CameraFrameData.Aperture = iris / 10;
-		CameraFrameData.FocalLength = zoom / 10;
-		CameraFrameData.FocusDistance = focus / 10;
+		CameraFrameData.Aperture = iris / 100;
+		CameraFrameData.FocalLength = zoom / 100;
+		CameraFrameData.FocusDistance = focus / 100;
 		Client->PushSubjectFrameData_AnyThread({ SourceGuid, SubjectNameCam }, MoveTemp(CameraFrameDataStruct));
 	}
 	else if (buf[0] == 0xF2) { //User data packet

@@ -34,7 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJ_BreakJson() {}
 		return ESIOJ_JsonType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ESIOJ_JsonType(ESIOJ_JsonType_StaticEnum, TEXT("/Script/SIOJEditorPlugin"), TEXT("ESIOJ_JsonType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_SIOJEditorPlugin_ESIOJ_JsonType_Hash() { return 4286076393U; }
+	uint32 Get_Z_Construct_UEnum_SIOJEditorPlugin_ESIOJ_JsonType_Hash() { return 1292328485U; }
 	UEnum* Z_Construct_UEnum_SIOJEditorPlugin_ESIOJ_JsonType()
 	{
 #if WITH_HOT_RELOAD
@@ -75,6 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJ_BreakJson() {}
 				Enumerators,
 				UE_ARRAY_COUNT(Enumerators),
 				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
 				(uint8)UEnum::ECppForm::EnumClass,
 				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
@@ -112,19 +113,19 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsArray_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[];
 #endif
-		static void NewProp_bIsArray_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsArray;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Name;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Type_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Type_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_Type;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_Type_Underlying;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsArray_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Name;
+		static void NewProp_bIsArray_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsArray;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -139,6 +140,21 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FSIOJ_NamedType>();
 	}
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData[] = {
+		{ "Category", "NamedType" },
+		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSIOJ_NamedType, Name), METADATA_PARAMS(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData[] = {
+		{ "Category", "NamedType" },
+		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSIOJ_NamedType, Type), Z_Construct_UEnum_SIOJEditorPlugin_ESIOJ_JsonType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray_MetaData[] = {
 		{ "Category", "NamedType" },
 		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
@@ -149,26 +165,11 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 		((FSIOJ_NamedType*)Obj)->bIsArray = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray = { "bIsArray", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FSIOJ_NamedType), &Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData[] = {
-		{ "Category", "NamedType" },
-		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSIOJ_NamedType, Type), Z_Construct_UEnum_SIOJEditorPlugin_ESIOJ_JsonType, METADATA_PARAMS(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData[] = {
-		{ "Category", "NamedType" },
-		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FSIOJ_NamedType, Name), METADATA_PARAMS(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Name,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_Type,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::NewProp_bIsArray,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSIOJ_NamedType_Statics::ReturnStructParams = {
 		(UObject* (*)())Z_Construct_UPackage__Script_SIOJEditorPlugin,
@@ -198,7 +199,7 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSIOJ_NamedType_Hash() { return 1886157417U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSIOJ_NamedType_Hash() { return 2608459548U; }
 	void USIOJ_BreakJson::StaticRegisterNativesUSIOJ_BreakJson()
 	{
 	}
@@ -212,11 +213,11 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Outputs_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Outputs_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Outputs;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Outputs_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -233,6 +234,7 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 		{ "ModuleRelativePath", "Public/SIOJ_BreakJson.h" },
 	};
 #endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_Inner = { "Outputs", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FSIOJ_NamedType, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_MetaData[] = {
 		{ "Category", "PinOptions" },
@@ -240,10 +242,9 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs = { "Outputs", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(USIOJ_BreakJson, Outputs), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_Inner = { "Outputs", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FSIOJ_NamedType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_USIOJ_BreakJson_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_USIOJ_BreakJson_Statics::NewProp_Outputs,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_USIOJ_BreakJson_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<USIOJ_BreakJson>::IsAbstract,
@@ -272,7 +273,7 @@ static struct FScriptStruct_SIOJEditorPlugin_StaticRegisterNativesFSIOJ_NamedTyp
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USIOJ_BreakJson, 3110172855);
+	IMPLEMENT_CLASS(USIOJ_BreakJson, 2251736851);
 	template<> SIOJEDITORPLUGIN_API UClass* StaticClass<USIOJ_BreakJson>()
 	{
 		return USIOJ_BreakJson::StaticClass();

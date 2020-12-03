@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeSIOJEditorPlugin_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0x29FA22F6,
+				0x61A026D7,
 				0xCDD5F1CC,
 				METADATA_PARAMS(nullptr, 0)
 			};

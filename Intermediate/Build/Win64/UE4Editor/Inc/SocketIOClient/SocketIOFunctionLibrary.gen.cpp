@@ -17,8 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeSocketIOFunctionLibrary() {}
 	SOCKETIOCLIENT_API UClass* Z_Construct_UClass_USocketIOFunctionLibrary();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 	UPackage* Z_Construct_UPackage__Script_SocketIOClient();
-	SOCKETIOCLIENT_API UClass* Z_Construct_UClass_USocketIOClientComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
+	SOCKETIOCLIENT_API UClass* Z_Construct_UClass_USocketIOClientComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(USocketIOFunctionLibrary::execConstructSocketIOComponent)
 	{
@@ -43,27 +43,27 @@ void EmptyLinkFunctionForGeneratedCodeSocketIOFunctionLibrary() {}
 			UObject* WorldContextObject;
 			USocketIOClientComponent* ReturnValue;
 		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnValue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SocketIOFunctionLibrary_eventConstructSocketIOComponent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000080588, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SocketIOFunctionLibrary_eventConstructSocketIOComponent_Parms, ReturnValue), Z_Construct_UClass_USocketIOClientComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_WorldContextObject = { "WorldContextObject", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SocketIOFunctionLibrary_eventConstructSocketIOComponent_Parms, WorldContextObject), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_WorldContextObject,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent_Statics::Function_MetaDataParams[] = {
@@ -103,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIOFunctionLibrary() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_SocketIOClient,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USocketIOFunctionLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent, "ConstructSocketIOComponent" }, // 1606395713
+		{ &Z_Construct_UFunction_USocketIOFunctionLibrary_ConstructSocketIOComponent, "ConstructSocketIOComponent" }, // 3529973463
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USocketIOFunctionLibrary_Statics::Class_MetaDataParams[] = {
@@ -140,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeSocketIOFunctionLibrary() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USocketIOFunctionLibrary, 3469132820);
+	IMPLEMENT_CLASS(USocketIOFunctionLibrary, 2926492746);
 	template<> SOCKETIOCLIENT_API UClass* StaticClass<USocketIOFunctionLibrary>()
 	{
 		return USocketIOFunctionLibrary::StaticClass();

@@ -1,17 +1,19 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.3.1",
+	"VersionName": "1.4",
 	"FriendlyName": "LONET Plugin",
 	"Description": "Real-time networking library to connect to LONET Network.",
 	"Category": "Networking",
 	"CreatedBy": "LOLED",
 	"CreatedByURL": "http://loledvirtual.com",
-	"DocsURL": "https://github.com/MadlyFX/LONET-Unreal-Plugin",
+	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
-	"EngineVersion": "4.25.0",
+	"EngineVersion": "4.26.0",
 	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
 	"Installed": true,
 	"Modules": [
 		{
