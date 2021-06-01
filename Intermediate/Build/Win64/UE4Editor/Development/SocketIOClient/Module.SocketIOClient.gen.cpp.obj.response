@@ -231,9 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source"
-/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public"
 /I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\SocketIOClient"
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source"
 /I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOClient\Public"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
@@ -241,6 +240,7 @@
 /I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SIOJson\Public"
 /I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\CoreUtility"
 /I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\CoreUtility\Public"
+/I "D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -264,7 +264,7 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"

@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.4",
+	"VersionName": "1.5",
 	"FriendlyName": "LONET Plugin",
 	"Description": "Real-time networking library to connect to LONET Network.",
 	"Category": "Networking",

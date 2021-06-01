@@ -5,6 +5,7 @@
 #include "ILiveLinkSource.h"
 #include "HAL/Runnable.h"
 #include "HAL/ThreadSafeBool.h"
+#include "Engine/TimecodeProvider.h"
 #include "IMessageContext.h"
 #include "Interfaces/IPv4/IPv4Endpoint.h"
 
@@ -47,6 +48,9 @@ public:
 
 	void HandleReceivedData(TSharedPtr<TArray<uint8>, ESPMode::ThreadSafe> ReceivedData);
 
+	FTimecode TimeCode;
+	FFrameRate FrameRate;
+
 private:
 
 	ILiveLinkClient* Client;
@@ -83,6 +87,12 @@ private:
 
 	// List of subjects we've already encountered
 	TSet<FName> EncounteredSubjects;
+
+	//List of FTimecodeProvider object
+	//TMap<FName, UXDTimecodeProvider*> TimecodeMap;
+
+	FQualifiedFrameTime GetQualifiedFrameTime(FTimecode tc, FFrameRate fr);
+
 
 	// Buffer to receive socket data into
 	TArray<uint8> RecvBuffer;

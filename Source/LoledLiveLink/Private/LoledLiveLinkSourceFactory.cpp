@@ -2,6 +2,7 @@
 
 #include "LoledLiveLinkSourceFactory.h"
 #include "LoledLiveLinkSource.h"
+#include "LoledLiveLinkSourceEditor.h"
 #include "LoledLiveLink.h"
 
 #define LOCTEXT_NAMESPACE "ULoledLiveLinkSourceFactory"

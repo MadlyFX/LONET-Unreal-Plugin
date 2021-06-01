@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLoledLiveLink_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x8DA91A9F,
-				0x98147737,
+				0x6A891016,
+				0xDA4FA259,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

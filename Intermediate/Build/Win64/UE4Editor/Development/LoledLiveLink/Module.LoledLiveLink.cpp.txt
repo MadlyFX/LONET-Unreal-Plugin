@@ -13,6 +13,8 @@ D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkInterface\LiveLinkTypes.generated.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkInterface\LiveLinkSourceSettings.generated.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkInterface\ILiveLinkSource.generated.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/TimecodeProvider.h
+D:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TimecodeProvider.generated.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Messaging\Public\IMessageContext.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Networking\Public\Interfaces/IPv4/IPv4Endpoint.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Sockets\Public\SocketSubsystem.h
@@ -45,3 +47,9 @@ D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/T
 D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/LoledLiveLink/Private/LoledLiveLinkSourceFactory.cpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Private\LoledLiveLinkSourceFactory.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\LoledLiveLink\LoledLiveLinkSourceFactory.generated.h
+D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/LoledLiveLink/Private/XDData_Client.cpp
+D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Public\XDData_Client.h
+D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\LoledLiveLink\XDData_Client.generated.h
+D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/LoledLiveLink/Private/XDTimecodeProvider.cpp
+D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\LoledLiveLink\Public\XDTimecodeProvider.h
+D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Inc\LoledLiveLink\XDTimecodeProvider.generated.h

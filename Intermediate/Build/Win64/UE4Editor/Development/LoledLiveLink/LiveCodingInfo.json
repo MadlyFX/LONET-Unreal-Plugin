@@ -5,11 +5,15 @@
 			"LoledLiveLink.cpp.obj",
 			"LoledLiveLinkSource.cpp.obj",
 			"LoledLiveLinkSourceEditor.cpp.obj",
-			"LoledLiveLinkSourceFactory.cpp.obj"
+			"LoledLiveLinkSourceFactory.cpp.obj",
+			"XDData_Client.cpp.obj",
+			"XDTimecodeProvider.cpp.obj"
 		],
 		"Module.LoledLiveLink.gen.cpp.obj": [
 			"LoledLiveLink.init.gen.cpp.obj",
-			"LoledLiveLinkSourceFactory.gen.cpp.obj"
+			"LoledLiveLinkSourceFactory.gen.cpp.obj",
+			"XDData_Client.gen.cpp.obj",
+			"XDTimecodeProvider.gen.cpp.obj"
 		]
 	}
 }

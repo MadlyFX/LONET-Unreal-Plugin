@@ -1,13 +1,12 @@
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Intermediate\Build\Win64\UE4Editor\Development\SocketIOLib\Definitions.SocketIOLib.h
 D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/SocketIOLib/Private/internal/sio_client_impl.cpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Private\internal\sio_client_impl.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdint
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\Windows.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\sdkddkver.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\excpt.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\excpt.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\windef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\minwindef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winnt.h
@@ -109,27 +108,26 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websock
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/connection.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/close.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/error.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\string
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xstring
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\iosfwd
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdio
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cstring
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cwchar
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xmemory
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\limits
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cfloat
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\climits
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xutility
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\utility
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cctype
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\string
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xstring
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\iosfwd
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cstdio
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cwchar
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xmemory
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\limits
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cfloat
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\isa_availability.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xutility
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\utility
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cctype
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/cpp11.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/system_error.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\system_error
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\__msvc_system_error_abi.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cerrno
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\stdexcept
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xcall_once.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xerrc.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\system_error
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\__msvc_system_error_abi.hpp
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cerrno
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\stdexcept
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xcall_once.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xerrc.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/network.hpp
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um\winsock2.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\ws2def.h
@@ -138,48 +136,47 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared\qos.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/stdint.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/utf8_validator.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/frame.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\algorithm
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\algorithm
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/utilities.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\locale
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocbuf
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\streambuf
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xiosbase
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\locale
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocbuf
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\streambuf
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xiosbase
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\share.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocale
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\memory
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xfacet
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocinfo
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocinfo.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocale
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\memory
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xfacet
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocinfo.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\clocale
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\locale.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocmes
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocmon
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\iterator
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xlocnum
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cmath
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xloctime
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ctime
-C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\time.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocmes
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocmon
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\iterator
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xlocnum
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cmath
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xloctime
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/impl/utilities_impl.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/logger/levels.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/processors/processor.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/processors/base.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/uri.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/memory.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\sstream
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\istream
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ostream
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ios
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\vector
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\sstream
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\istream
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ostream
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ios
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\vector
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/base/connection.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/connection_hdl.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/functional.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\functional
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\tuple
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\functional
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\tuple
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/http/constants.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\map
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xtree
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\queue
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\deque
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\map
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xtree
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\queue
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\deque
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/impl/connection_impl.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/processors/hybi00.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/md5.hpp
@@ -189,7 +186,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websock
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/processors/hybi13.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/sha1/sha1.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/base64/base64.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/version.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/impl/endpoint_impl.hpp
@@ -366,7 +363,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/event.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/win_event.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/assert.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
@@ -405,7 +402,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\process.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_startup.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\vcruntime_startup.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\vcruntime_startup.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
@@ -431,9 +428,8 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/chrono.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\chrono
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ratio
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xtimec.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\chrono
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ratio
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/winsock_init.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
@@ -518,15 +514,14 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websock
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/config/core_client.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/concurrency/basic.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/thread.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\thread
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\xthreads.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\mutex
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\condition_variable
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\thread
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\mutex
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\condition_variable
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/iostream/endpoint.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/base/endpoint.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/iostream/connection.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/iostream/base.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\iostream
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\iostream
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/http/request.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/http/parser.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/http/impl/parser.hpp
@@ -537,10 +532,11 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websock
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/message_buffer/alloc.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/logger/basic.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/time.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\iomanip
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\iomanip
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/random/random_device.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/common/random.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\random
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\random
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\xbit_ops.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/endpoint_base.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/connection_base.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/extensions/permessage_deflate/disabled.hpp
@@ -578,7 +574,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/buffer_sequence_adapter.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/buffer.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/array_fwd.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\array
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\array
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/string_view.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
@@ -599,7 +595,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/win_fd_set_adapter.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/reactor_op_queue.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/hash_map.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\list
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\list
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
@@ -948,13 +944,13 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\as
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/local/stream_protocol.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/packaged_task.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/future.hpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\future
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ppltasks.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\pplwin.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\pplinterface.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\ppltaskscheduler.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\crtdefs.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\pplcancellation_token.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\future
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ppltasks.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\pplwin.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\pplinterface.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ppltaskscheduler.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\crtdefs.h
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\pplcancellation_token.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/push_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/detail/pop_options.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\asio\asio\include\asio/placeholders.hpp
@@ -1114,7 +1110,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websock
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\websocketpp\websocketpp/transport/asio/security/base.hpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public\sio_client.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public\sio_message.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public\sio_socket.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Private\internal\sio_packet.h
@@ -1125,7 +1121,7 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjs
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\allocators.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\rapidjson.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\inttypes.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\stream.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\encodings.h
@@ -1150,10 +1146,10 @@ D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjs
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\internal\itoa.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\stringbuffer.h
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\ThirdParty\rapidjson\include\rapidjson\stream.h
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cassert
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cassert
 C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
 D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/SocketIOLib/Private/sio_client.cpp
 D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/SocketIOLib/Private/sio_socket.cpp
-D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE\cstdarg
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\cstdarg
 D:/Unreal Projects/LONETConversion/Plugins/LONETClient/Source/SocketIOLib/Private/SocketIOLib.cpp
 D:\Unreal Projects\LONETConversion\Plugins\LONETClient\Source\SocketIOLib\Public\SocketIOLib.h
