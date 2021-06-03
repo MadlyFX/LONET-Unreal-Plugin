@@ -6,10 +6,10 @@
 #include "SIOJsonObject.h"
 #include "SIOJsonValue.h"
 #include "ISIOJson.h"
-#include "Runtime/Json/Public/Policies/CondensedJsonPrintPolicy.h"
-#include "Runtime/Json/Public/Serialization/JsonWriter.h"
-#include "Runtime/Json/Public/Serialization/JsonSerializer.h"
-#include "Runtime/Core/Public/Misc/Base64.h"
+#include "Misc/Base64.h"
+#include "Policies/CondensedJsonPrintPolicy.h"
+#include "Serialization/JsonWriter.h"
+#include "Serialization/JsonSerializer.h"
 
 typedef TJsonWriterFactory< TCHAR, TCondensedJsonPrintPolicy<TCHAR> > FCondensedJsonStringWriterFactory;
 typedef TJsonWriter< TCHAR, TCondensedJsonPrintPolicy<TCHAR> > FCondensedJsonStringWriter;
@@ -68,10 +68,10 @@ FString USIOJsonObject::EncodeJsonToSingleString() const
 	FString OutputString = EncodeJson();
 
 	// Remove line terminators
-	OutputString.Replace(LINE_TERMINATOR, TEXT(""));
+	(void)OutputString.Replace(LINE_TERMINATOR, TEXT(""));
 	
 	// Remove tabs
-	OutputString.Replace(LINE_TERMINATOR, TEXT("\t"));
+	(void)OutputString.Replace(LINE_TERMINATOR, TEXT("\t"));
 
 	return OutputString;
 }

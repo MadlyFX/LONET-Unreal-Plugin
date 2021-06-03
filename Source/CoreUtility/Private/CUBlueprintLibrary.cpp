@@ -18,6 +18,7 @@
 #include "CULambdaRunnable.h"
 #include "CUOpusCoder.h"
 #include "CUMeasureTimer.h"
+#include "Hash/CityHash.h"
 
 #pragma warning( push )
 #pragma warning( disable : 5046)
@@ -81,7 +82,7 @@ UTexture2D* UCUBlueprintLibrary::Conv_BytesToTexture(const TArray<uint8>& InByte
 					[UpdateData](FRHICommandList& CommandList)
 				{
 					RHIUpdateTexture2D(
-						((FTextureResource*)UpdateData->Texture2D->Resource)->GetTexture2DRHI(),
+						((FTextureResource*)UpdateData->Texture2D->Resource)->TextureRHI->GetTexture2D(),
 						0,
 						UpdateData->Region,
 						UpdateData->Pitch,
@@ -294,11 +295,7 @@ void UCUBlueprintLibrary::SetSoundWaveFromWavBytes(USoundWaveProcedural* InSound
 TFuture<UTexture2D*> UCUBlueprintLibrary::Conv_BytesToTexture_Async(const TArray<uint8>& InBytes)
 {
 	//Running this on a background thread
-#if ENGINE_MINOR_VERSION < 23
-	return Async<UTexture2D*>(EAsyncExecution::Thread,[InBytes]
-#else
 	return Async(EAsyncExecution::Thread, [InBytes]
-#endif
 	{
 		//Create wrapper pointer we can share easily across threads
 		struct FDataHolder
@@ -369,7 +366,7 @@ TFuture<UTexture2D*> UCUBlueprintLibrary::Conv_BytesToTexture_Async(const TArray
 			[UpdateData](FRHICommandList& CommandList)
 		{
 			RHIUpdateTexture2D(
-				((FTextureResource*)UpdateData->Texture2D->Resource)->GetTexture2DRHI(),
+				((FTextureResource*)UpdateData->Texture2D->Resource)->TextureRHI->GetTexture2D(),
 				0,
 				UpdateData->Region,
 				UpdateData->Pitch,
@@ -417,6 +414,11 @@ FString UCUBlueprintLibrary::NowUTCString()
 FString UCUBlueprintLibrary::GetLoginId()
 {
 	return FPlatformMisc::GetLoginId();
+}
+
+int32 UCUBlueprintLibrary::ToHashCode(const FString& String)
+{
+	return (int32)CityHash32(TCHAR_TO_ANSI(*String), String.Len());
 }
 
 void UCUBlueprintLibrary::MeasureTimerStart(const FString& Category /*= TEXT("TimeTaken")*/)
